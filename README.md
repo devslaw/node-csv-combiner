@@ -2,6 +2,15 @@
 
 ## Combines multiple CSV files merging chosen columns
 
+#### Instalation
+
+    npm install csv-combiner
+
+
+#### Test
+
+    npm test
+
 #### Example: combine two CSV files
 #### Dataset_1.csv:
     City,State,Country,
