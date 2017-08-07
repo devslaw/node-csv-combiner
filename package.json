@@ -1,0 +1,26 @@
+{
+  "name": "csv-combiner",
+  "version": "1.0.0",
+  "description": "asynchronous read multiple csv files line by line and combine columns into one file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.spec.js"
+  },
+  "keywords": [
+    "csv",
+    "dataset"
+  ],
+  "author": "Arthur Arakelyan <arthur@devslaw.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.19",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2",
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^2.2.41"
+  }
+}
