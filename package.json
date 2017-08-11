@@ -12,6 +12,10 @@
   ],
   "author": "Arthur Arakelyan <arthur@devslaw.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devslaw/node-csv-combiner.git"
+  },
   "dependencies": {
     "@types/node": "^8.0.19",
     "chai": "^4.1.1",
