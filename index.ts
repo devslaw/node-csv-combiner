@@ -30,8 +30,6 @@ export class csvCombiner {
             const combinedFile = fs.createWriteStream(combinedFileDir.concat(combinedFileName), {flags: 'a'});
             const eventEmitter = new EventEmitter();
 
-            const emptyOb = Observable.interval(10);
-
             files.map((file, index) => {
                 readStreams[index] = createReadStream(file.filePath);
                 lineReaders[index] = readline.createInterface({
