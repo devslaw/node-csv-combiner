@@ -24,17 +24,19 @@
     Davit,Tovmasyan,25
 
 #### usage:
-    const combiner = new csvCombiner('/exportDir');
-        combiner.combine([{filePath: '/files/Dataset_1.csv',columns: [0,1,2]},
-                          {filePath: '/files/Dataset_2.csv',columns: [0,1,2]}
-            ]).subscribe(
-                filePath => {
-                   //do whatever you want
-                },
-                error => {
-                   //do whatever you want
-                }
-            )
+```javascript
+const combiner = new csvCombiner('/exportDir');
+combiner.combine([{filePath: '/files/Dataset_1.csv',columns: [0,1,2]},
+		  {filePath: '/files/Dataset_2.csv',columns: [0,1,2]}
+]).subscribe(
+	filePath => {
+		 //do whatever you want
+        },
+        error => {
+        	//do whatever you want
+        }
+)
+```
 
 #### combined_dataset.csv
     City,State,Country,First Name,Last Name,Age
